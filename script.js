@@ -44,7 +44,7 @@ function toggleExpand() {
 
 function trigonometric(func) {
   try {
-    const value=parsefloat(display.value);
+    const value=parseFloat(display.value);
     let result;
 
     let radian=(value*Math.PI) / 180;
